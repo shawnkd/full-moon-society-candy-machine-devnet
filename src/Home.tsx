@@ -205,20 +205,20 @@ const BorderLinearProgress = styled(LinearProgress)`
   border-radius: 5px;
 `;
 
-const ShimmerTitle = styled.h1`
-  margin: 50px auto;
-  text-transform: uppercase;
-  animation: glow 2s ease-in-out infinite alternate;
-  color: var(--main-text-color);
-  @keyframes glow {
-    from {
-      text-shadow: 0 0 20px var(--main-text-color);
-    }
-    to {
-      text-shadow: 0 0 30px var(--title-text-color), 0 0 10px var(--title-text-color);
-    }
-  }
-`;
+// const ShimmerTitle = styled.h1`
+//   margin: 50px auto;
+//   text-transform: uppercase;
+//   animation: glow 2s ease-in-out infinite alternate;
+//   color: var(--main-text-color);
+//   @keyframes glow {
+//     from {
+//       text-shadow: 0 0 20px var(--main-text-color);
+//     }
+//     to {
+//       text-shadow: 0 0 30px var(--title-text-color), 0 0 10px var(--title-text-color);
+//     }
+//   }
+// `;
 
 // const GoldTitle = styled.h2`
 //   color: var(--title-text-color);
