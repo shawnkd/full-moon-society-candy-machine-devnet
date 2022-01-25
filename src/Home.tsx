@@ -438,13 +438,13 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                    <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt="" src="logo.png"/></a></Logo>
+                    <Logo><a href="/" target="_blank" rel="noopener noreferrer"><img alt="" src="logo.png"/></a></Logo>
                     <Menu>
                         <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Twitter</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
+                        <li><a href="https://discord.com/" target="_blank"
                                rel="noopener noreferrer">Discord</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
+                        <li><a href="/" target="_blank"
                                rel="noopener noreferrer">About</a></li>
                     </Menu>
                     <Wallet>
