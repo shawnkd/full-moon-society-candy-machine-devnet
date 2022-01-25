@@ -32,10 +32,10 @@ const NFT = styled(Paper)`
   padding: 5px 20px 20px 20px;
   flex: 1 1 auto;
 `;
-const Des = styled(NFT)`
-  text-align: left;
-  padding-top: 0px;
-`;
+// const Des = styled(NFT)`
+//   text-align: left;
+//   padding-top: 0px;
+// `;
 
 const Card = styled(Paper)`
   display: inline-block;
@@ -220,19 +220,19 @@ const ShimmerTitle = styled.h1`
   }
 `;
 
-const GoldTitle = styled.h2`
-  color: var(--title-text-color);
-`;
+// const GoldTitle = styled.h2`
+//   color: var(--title-text-color);
+// `;
 
-const LogoAligner = styled.div`
-  display: flex;
-  align-items: center;
+// const LogoAligner = styled.div`
+//   display: flex;
+//   align-items: center;
 
-  img {
-    max-height: 35px;
-    margin-right: 10px;
-  }
-`;
+//   img {
+//     max-height: 35px;
+//     margin-right: 10px;
+//   }
+// `;
 
 export interface HomeProps {
     candyMachineId: anchor.web3.PublicKey;
